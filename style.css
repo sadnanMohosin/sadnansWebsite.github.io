@@ -1,0 +1,288 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  --dark-bg: rgba(46, 63, 82, 0.95);
+  --spacing: 350px;
+
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  width: 100vw;
+  color: rgb(228, 232, 236);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1,
+h2,
+h3,
+blockquote {
+  font-family: voga;
+  font-weight: 700;
+  font-style: italic;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: rgb(230, 16, 16);
+
+  background: rgba(8, 54, 82, 0.1);
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
+
+/* First skill */
+.firstskill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.firstskill > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #a1bad4;
+  margin: 0;
+}
+
+.firstskill:before {
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+
+.firstskill-bar {
+  width: 100%;
+  height: 5px;
+  background: #ffb997;
+  display: block;
+  position: relative;
+}
+
+/* SKILL 1 */
+.firstskill1 {
+  width: 95%;
+}
+
+.firstskill-bar span {
+  position: absolute;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+
+.firstskill-bar {
+  position: relative;
+}
+
+.firstskill1 .firstskill-count1 {
+  right: 0;
+}
+
+/* SKILL 2 */
+.firstskill2 {
+  width: 80%;
+}
+
+.firstskill2 .firstskill-count2 {
+  right: 0;
+}
+
+/* SKILL 3 */
+.firstskill3 {
+  width: 75%;
+}
+
+.firstskill3 .firstskill-count3 {
+  right: 0;
+}
+
+/* SKILL 4 */
+.firstskill4 {
+  width: 80%;
+}
+
+.firstskill4 .firstskill-count4 {
+  right: 0;
+}
+
+/* SKILL 5 */
+.firstskill5 {
+  width: 70%;
+}
+
+.firstskill5 .firstskill-count5 {
+  right: 0;
+}
+
+/* SKILL 6 */
+.firstskill6 {
+  width: 90%;
+}
+
+.firstskill6 .firstskill-count6 {
+  right: 0;
+}
+
+/* Second Skill */
+.secondskill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.secondskill > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f92da;
+  margin: 0;
+}
+
+.secondskill:before {
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+
+.secondskill-bar {
+  width: 100%;
+  height: 5px;
+  background: #f67e7d;
+  display: block;
+  position: relative;
+}
+
+/* SKILL 1 */
+.secondskill1 {
+  width: 75%;
+}
+
+.secondskill-bar span {
+  position: absolute;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+
+.secondskill-bar {
+  position: relative;
+}
+
+.secondskill1 .secondskill-count1 {
+  right: 0;
+}
+
+/* SKILL 2 */
+.secondskill2 {
+  width: 80%;
+}
+
+.secondskill2 .secondskill-count2 {
+  right: 0;
+}
+
+/* SKILL 3 */
+.secondskill3 {
+  width: 75%;
+}
+
+.secondskill3 .secondskill-count3 {
+  right: 0;
+}
+
+/* SKILL 4 */
+.secondskill4 {
+  width: 99%;
+}
+
+.secondskill4 .secondskill-count4 {
+  right: 0;
+}
+
+/* SKILL 5 */
+.secondskill5 {
+  width: 96%;
+}
+
+.secondskill5 .secondskill-count5 {
+  right: 0;
+}
+
+/* SKILL 6 */
+.secondskill6 {
+  width: 98%;
+}
+
+.secondskill6 .secondskill-count6 {
+  right: 0;
+}
+
+/* SKILL 7 */
+.secondskill7 {
+  width: 65%;
+}
+
+.secondskill7 .secondskill-count7 {
+  right: 0;
+}
