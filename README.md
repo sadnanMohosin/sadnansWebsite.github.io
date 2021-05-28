@@ -1,6 +1,3 @@
 # Portfolio in Three.js
-
-git clone <this-repo>
-npm install
-npm run dev
-```
+##Visit following link:
+https://sadnanmohosin.github.io/sadnansWebsite.github.io/
