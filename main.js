@@ -69,7 +69,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const sadnanTexture = new THREE.TextureLoader().load("sadnan.jpg");
+const sadnanTexture = new THREE.TextureLoader().load("sadnan.JPG");
 
 const sadnan = new THREE.Mesh(
   new THREE.BoxGeometry(3, 3, 3),
